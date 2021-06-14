@@ -37,7 +37,7 @@ To run the backend server just go to the server folder with ```cd server``` and 
 
 ##### GET
 >@params\
-returns an <object> with the message data
+returns an <object> with the message data\
 
 ```
    /api/messages
@@ -48,7 +48,7 @@ returns an <object> with the message data
 
 >@params\
 We need to pass an <id> id of message stored in queue
-@returns and <object> with a message, informing that the message has been processed
+@returns and <object> with a message, informing that the message has been processed\
 
 ```
    /api/messages/process
